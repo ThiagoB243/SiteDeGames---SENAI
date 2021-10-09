@@ -1,3 +1,16 @@
-/*.fundo{
-    width: 100%; height: 800px; background-color: black;
-}*/
+.{
+background-color: black;
+
+}
+
+.menu-content{
+
+    display: flex;
+}
+
+.Topo{
+    background-color: #F80808;
+    position: absolute;
+    width: 146px;
+    height: 47px;
+}
