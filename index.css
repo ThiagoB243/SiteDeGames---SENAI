@@ -46,13 +46,18 @@ body{
     font-size: 25px;
 }
 
-.container{
+.container1{
     background-color:#2C4169;
     margin: 60px;
     border-radius: 20px;
     box-shadow: 6px 6px 6px rgba(66, 0, 255, 0.25);
     padding:30px;
     margin-top: 250px;
+}
+
+.container{
+    background-color:#2C4169;
+    width: 100%;
 }
 
 .container2{
@@ -72,13 +77,13 @@ body{
 .titulo-anuncio{
     font-size: 25px;
     color: white;
-    margin-left: 675px;
+    margin-left: 650px;
     margin-top:-290px;
 }
 
 .corpo-anuncio{
     font-size: 16px;
-    margin-left: 600px;
+    margin-left: 500px;
     color: white;
     text-align: justify;
 }
@@ -96,4 +101,69 @@ body{
 .imagem-produtos{
     max-width: 100px;
     height: 100px;
+}
+
+.container4{
+    background-color:#2C4169;
+    width: 100%;
+    margin-top: 100px;
+    height: 100%;
+}
+
+
+footer.footer-section {
+    padding: 60px 0 50px;
+}
+.bg-with-black {
+    position: relative;
+}
+.footer-top-section {
+    margin: 0 0 47px;
+}
+.single-fta > img {
+    margin: 0 0 7px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.single-fta ul.fta-list li, .single-fta ul.fta-list li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.fta-title {
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+.fba-copyright p {
+    color: #aaaaaa;
+    line-height: 30px;
 }
