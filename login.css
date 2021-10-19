@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.container{
+    font-size: 25px;
+    margin: 2%;
+    display: flex;
+    background-color: #2C4169;
+    justify-content: center;
+    color:white;
+    padding: 12px;
+    width: 420px;
+    height: 320px;
+    border-radius: 20px;;
+}
+
+.e-mail{
+    margin: 8px;
+}
+
+.password{
+    margin: 8px;
+}
+
+.botao{
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left:70px;
+    width: fit-content;
+    height: fit-content;
+}
