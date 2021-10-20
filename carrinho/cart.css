@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+   }
+
+.container{
+    font-size: 25px;
+    margin: 2%;
+    display: flex;
+    background-color: #2C4169;
+    justify-content: center;
+    color:white;
+    padding: 12px;
+    width: 420px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+}

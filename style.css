@@ -73,7 +73,7 @@ body{
 .header-banner-searchbar{
     background-color: #E9E6E6;
     position: absolute;
-    width: 600px;
+    width: 545px;
     height: 45px;
     left: 350px;
     top: 39px;
@@ -83,8 +83,8 @@ body{
 .header-banner-searchbar-img{
     height: 50px; 
     width: 45px;
-    margin-top: -1px;
-    margin-left: 559px;
+    margin-top: -110px;
+    margin-left: 892px;
 }
 
 .menu-text{

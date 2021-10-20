@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+
+.menu-content{
+
+    display: flex;
+}
+
+.Topo{
+    background-color: #F80808;
+    position: absolute;
+    width: 146px;
+    height: 47px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.Topo-fundo{
+    background-color:#2C4169; 
+    position: absolute; 
+    width: 100%; 
+    height: 73px;
+    top: 130px;
+}
+
+.header-banner-class{
+    background-color: black; 
+    position: absolute; 
+    height: 130px; 
+    width: 100%;
+}
+
+.header-banner-img{
+    height: 81px;
+    width: 174px; 
+    margin-top: 23px; 
+    margin-left: 34px;
+}
+
+.header-banner-button1{
+    background-color: #0FFE52;
+    position: absolute;
+    width: 94px;
+    height: 53px;
+    border-radius: 10px;
+    left: 1010px;
+    top: 37px;
+}
+
+.header-banner-login{
+    color: black; 
+    margin-left:2px;
+    font-size: 25px; 
+    margin-top: 1px;
+}
+
+.header-banner-button2{
+    background-color: #0FFE52;
+    position: absolute;
+    width: 94px;
+    height: 53px;
+    border-radius: 10px;
+    left: 1170px;
+    top: 37px;
+}
+
+.header-banner-button-img{
+    height: 45px; 
+    width: 45px;
+    margin-left: 10px;
+}
+
+.header-banner-searchbar{
+    background-color: #E9E6E6;
+    position: absolute;
+    width: 600px;
+    height: 45px;
+    left: 350px;
+    top: 39px;
+    border-radius: 10px;
+}
+
+.header-banner-searchbar-img{
+    height: 50px; 
+    width: 45px;
+    margin-top: -1px;
+    margin-left: 559px;
+}
+
+.aviso{
+    color: white;
+    font-size: 25px;
+    margin-top:200px;
+    margin-left: 200px;
+}

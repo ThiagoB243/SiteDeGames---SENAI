@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+ background-color: black;
 }
 
 .container{
@@ -11,8 +11,9 @@ body{
     color:white;
     padding: 12px;
     width: 420px;
-    height: 320px;
-    border-radius: 20px;;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
 }
 
 .e-mail{
