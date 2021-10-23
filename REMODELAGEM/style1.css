@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body{
+  background-color: black;
+}
+
 .container{
   width: 100%;
   padding-left: 5%;
@@ -22,33 +26,38 @@
 
 .logo{
   width: 150px;
-  height: 70px;
+  height: 90px;
   cursor: pointer;
   margin: 25px 0;
+  margin-left: 30px;
 }
 
 .login-button{
-    width: 50px;
-    margin: 30px 0;
-    margin-left: 750px;
-    background-color: #0FFE52;
-    font-size: 25px;
-    border-radius: 10px;
-    height: 50px;
-    width: fit-content;
-    padding: 5px;
-    text-decoration: none;
-    color:black;
+width: 100px;
+margin: 30px 0;
+background-color: #0FFE52;
+font-size: 25px;
+border-radius: 10px;
+height: 50px;
+width: fit-content;
+text-decoration: none;
+color:black;
+padding: 5px;
+
 }
 
 .cart-button{
   width: 90px;
-  margin: 30px 0;
-  margin-left: 100px;
+  margin: 30px;
+  margin-right: 30px;
   background-color: #0FFE52;
-  padding: 5px;
   height: 50px;
   border-radius: 10px;
+}
+
+.conjunto{
+  box-sizing: border-box;
+  display: flex;
 }
 
 .cart-image{
@@ -65,8 +74,8 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin: 20px;
-    margin-left: 43px;
-    margin-right: 43px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #F80808;
     padding: 10px;
     border-radius: 10px;
@@ -90,12 +99,65 @@ overflow: hidden;
 }
 
 .container-2{
-width: fit-content;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 margin: 50px;
+margin-left: 50px;
+margin-right: 50px;
 display: flex;
 background-color: #2C4169;
-padding-left: 8%;
-padding-right: 8%;
+padding-left: 3%;
+padding-right: 3%;
 box-sizing: border-box;
 overflow: hidden;
+border-radius: 10px;
+}
+
+.announce-image{
+  width: 400px;
+  height: 320px;
+  padding: 10px;
+  border-radius: 20px;
+  margin:10px;
+}
+
+h1{
+align-items: center;
+color: white;
+}
+
+p{
+  color: white;
+  justify-content: right;
+}
+
+.text-box{
+ margin: 10px;
+}
+
+.produtos{
+  width: 310px;
+  height: 400px;
+  align-content: center;
+  height: auto;
+  padding: 5px;
+}
+
+.container-3{
+  align-content: center;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.p-3{
+  width: fit-content;
+  height: fit-content;
+  margin: 5px;
+}
+
+.d-flex{
+  background-color: #2C4169;
+  color: white;
+  font-size: 25px;
 }
