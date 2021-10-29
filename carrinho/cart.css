@@ -4,7 +4,7 @@ body{
 
 .container{
     font-size: 25px;
-    margin: 2%;
+    margin: 0 auto;
     display: flex;
     background-color: #2C4169;
     justify-content: center;

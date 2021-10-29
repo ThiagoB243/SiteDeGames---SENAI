@@ -4,30 +4,32 @@ body{
 
 .container{
     font-size: 25px;
-    margin: 2%;
+    margin: 0 auto;
     display: flex;
     background-color: #2C4169;
-    justify-content: center;
+    text-align: center;
     color:white;
     padding: 12px;
-    width: 420px;
-    height: 200px;
+    width: fit-content;
+    height: fit-content;
     border-radius: 20px;
-    position: absolute;
+    margin-top: 25px;
 }
 
 .e-mail{
     margin: 8px;
+    padding: 5px;
 }
 
 .password{
     margin: 8px;
+    padding: 5px;
 }
 
 .botao{
     border-radius: 10px;
     border-width: 3px;
-    margin-left:70px;
+    text-align: center;
     width: fit-content;
     height: fit-content;
 }
