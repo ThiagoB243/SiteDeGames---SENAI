@@ -2,14 +2,28 @@ body{
  background-color: black;
 }
 
+.header-login{
+    background-color: #2C4169;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.logo{
+  width: 150px;
+  height: 90px;
+  cursor: pointer;
+  margin: 25px 0;
+  margin-left: 30px;
+}
+
 .container{
     font-size: 25px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     background-color: #2C4169;
     text-align: center;
     color:white;
-    padding: 12px;
+    padding: 70px;
     width: fit-content;
     height: fit-content;
     border-radius: 20px;
@@ -17,19 +31,24 @@ body{
 }
 
 .e-mail{
-    margin: 8px;
+    margin: 5px auto;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .password{
-    margin: 8px;
+    margin: 5px auto;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .botao{
     border-radius: 10px;
     border-width: 3px;
     text-align: center;
-    width: fit-content;
-    height: fit-content;
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #0FFE52;
+    font-size: 25px;
 }
