@@ -1,10 +1,11 @@
-
 *{
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
 }
+
+/*Elementos do rodapé da página*/
 
 .container{
   width: 100%;
@@ -103,6 +104,8 @@ nav ul li img{
   color:white;
 }
 
+/*Elementos da barra de seleção*/
+
 .container-1{
 display: flex;
 background-color: #2C4169;
@@ -113,6 +116,12 @@ box-sizing: border-box;
 overflow: hidden;
 }
 
+.selector{
+  display: none;
+} /*Fazendo a barra de seleção não aparecer em dispositivos grandes*/
+
+/*Elementos da barra de anúncio*/
+
 .container-2{
 flex-direction: column;
 text-align: center;
@@ -120,7 +129,6 @@ margin: 0 auto;
 background-color: #2C4169;
 overflow: hidden;
 border-radius: 10px;
-
 }
 
 .announce-image{
@@ -152,6 +160,15 @@ p{
   padding: 5px;
 }
 
+.d-flex{
+  background-color: #2C4169;
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+/*Elementos das imagens dos produtos*/
+
 .container-3{
   flex-direction: column;
   display: flex;
@@ -160,13 +177,7 @@ p{
   text-align: center;
 }
 
-
-.d-flex{
-  background-color: #2C4169;
-  color: white;
-  font-size: 25px;
-  margin-top: 50px;
-}
+/*Elementos do rodapé da página*/
 
 .container-4{
   background-color: #2C4169;
@@ -229,9 +240,8 @@ footer.footer-section {
   line-height: 30px;
 }
 
-.selector{
-  display: none;
-}
+
+/*Configurações para tamanhos de dispositivos*/
 
 @media only screen and (max-width:700px){
   
