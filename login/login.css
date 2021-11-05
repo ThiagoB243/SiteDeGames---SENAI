@@ -4,51 +4,64 @@ body{
 
 .header-login{
     background-color: #2C4169;
-    box-sizing: border-box;
     width: 100%;
 }
 
 .logo{
-  width: 150px;
-  height: 90px;
+  width: 15%;
+  height: fit-content;
+  height: 5em;
   cursor: pointer;
   margin: 25px 0;
-  margin-left: 30px;
+  margin-left: 2%;
 }
 
 .container{
-    font-size: 25px;
-    margin: 10px auto;
+    font-size: 2em;
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
     background-color: #2C4169;
     text-align: center;
     color:white;
-    padding: 70px;
-    width: fit-content;
+    width: 50%;
     height: fit-content;
     border-radius: 20px;
-    margin-top: 25px;
+    margin-top: 4%;
 }
 
 .e-mail{
-    margin: 5px auto;
-    padding: 5px;
+    padding: 2%;
+    font-size: 0.6em;
+}
+
+.e-mail-input{
     border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
 }
 
 .password{
-    margin: 5px auto;
-    padding: 5px;
+    padding: 2%;
+    font-size: 0.6em;
+}
+
+.password-input{
     border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+    
 }
 
 .botao{
     border-radius: 10px;
     border-width: 3px;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    margin-top: 40px;
+    width: fit-content;
+    height: fit-content;
+    margin: 6%;
     background-color: #0FFE52;
     font-size: 25px;
 }
