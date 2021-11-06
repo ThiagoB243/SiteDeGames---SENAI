@@ -1,61 +1,61 @@
-body{
- background-color: black;
+body {
+    background-color: black;
 }
 
-.header-login{
+.header-login {
     background-color: #2C4169;
     width: 100%;
+    height: fit-content;
 }
 
-.logo{
-  width: 15%;
-  height: fit-content;
-  height: 5em;
-  cursor: pointer;
-  margin: 25px 0;
-  margin-left: 2%;
+.logo {
+    width: 15%;
+    height: fit-content;
+    height: 5em;
+    cursor: pointer;
+    margin: 25px 0;
+    margin-left: 2%;
 }
 
-.container{
+.container {
     font-size: 2em;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     background-color: #2C4169;
     text-align: center;
-    color:white;
+    color: white;
     width: 50%;
     height: fit-content;
     border-radius: 20px;
     margin-top: 4%;
 }
 
-.e-mail{
+.e-mail {
     padding: 2%;
     font-size: 0.6em;
 }
 
-.e-mail-input{
+.e-mail-input {
     border-radius: 10px;
     margin: 2%;
     width: 90%;
     font-size: 0.7em;
 }
 
-.password{
+.password {
     padding: 2%;
     font-size: 0.6em;
 }
 
-.password-input{
+.password-input {
     border-radius: 10px;
     margin: 2%;
     width: 90%;
     font-size: 0.7em;
-    
 }
 
-.botao{
+.botao {
     border-radius: 10px;
     border-width: 3px;
     text-align: center;
@@ -64,4 +64,19 @@ body{
     margin: 6%;
     background-color: #0FFE52;
     font-size: 25px;
+}
+
+@media only screen and (min-width:760px) {
+    .e-mail {
+        font-size: 1.3em;
+    }
+    .password {
+        font-size: 1.3em;
+    }
+    .e-mail-input {
+        height: 30px;
+    }
+    .password-input {
+        height: 30px;
+    }
 }
