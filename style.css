@@ -118,10 +118,7 @@ nav ul li img {
 
 .selector {
     display: none;
-}
-
-
-/*Fazendo a barra de seleção não aparecer em dispositivos grandes*/
+}/*Fazendo a barra de seleção não aparecer em dispositivos grandes*/
 
 
 /*Carousel*/
@@ -152,20 +149,8 @@ h1 {
     font-size: 3em;
 }
 
-p {
-    color: white;
-    justify-content: right;
-    font-size: 1.7em;
-}
-
 .text-box {
     margin: 10px;
-}
-
-.produtos {
-    width: 200px;
-    height: 200px;
-    padding: 5px;
 }
 
 
@@ -174,7 +159,7 @@ p {
 .d-flex {
     background-color: #2C4169;
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 2%;
 }
 
@@ -182,24 +167,38 @@ p {
 /*Elementos das imagens dos produtos*/
 
 .container-3 {
-    flex-direction: column;
+    flex-direction: row-reverse;
     display: flex;
     box-sizing: inherit;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
 .produtos {
-    margin: 2.5%;
-    width: 20%;
-    height: 20%;
+    margin: 0 auto;
+    width: 50%;
+    height: 40%;
 }
+
+.card{
+    margin: 50px auto;
+    width: 85%;
+}
+
+.card h5{
+    font-size: 1.5em;
+}
+
 
 
 /*Elementos do rodapé da página*/
 
 .container-4 {
     background-color: #2C4169;
+}
+
+div.row{
+    margin-right: 0;
 }
 
 footer.footer-section {
@@ -211,11 +210,11 @@ footer.footer-section {
 }
 
 .footer-top-section {
-    margin: 0 0 47px;
+    margin: 0 0 5%;
 }
 
 .single-fta>img {
-    margin: 0 0 7px;
+    margin: 0 0 1%;
 }
 
 .single-fta ul.fta-list {
@@ -290,9 +289,6 @@ footer.footer-section {
         margin-top: 100px;
         width: 90%;
         height: 50%;
-    }
-    .announce-image {
-        width: 110%;
     }
     .carousel-caption h3 {
         font-size: 0.7em;
@@ -399,5 +395,15 @@ footer.footer-section {
     .container-2 {
         margin-bottom: 40px;
         margin-top: 40px;
+    }
+    .card h5{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .produtos {
+        width: 100%;
+     
     }
 }
