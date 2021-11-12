@@ -26,7 +26,7 @@
     width: 150px;
     height: 90px;
     cursor: pointer;
-    margin: 15px auto;
+    margin: 0 auto;
     margin-left: 30px;
 }
 
@@ -140,11 +140,16 @@ nav ul li img {
 
 .image-container {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin: 20px;
 }
 
 .product-image {
     width: 70%;
+}
+
+.list {
+    margin: 20px;
 }
 
 .col ul {
@@ -155,6 +160,23 @@ nav ul li img {
     list-style: none;
     font-size: 1.3em;
     padding: 5px;
+}
+
+.description-title {
+    margin: 20px;
+}
+
+.description-text {
+    text-align: justify;
+    font-size: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
 }
 
 
