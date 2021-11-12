@@ -5,25 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    <title>Game Mania</title>
+    <title>Tela de Produto</title>
+    <link rel="stylesheet" type="text/css" href="product_screen.css" media="screen">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-
-    <!--Cria uma barra de navegação no rodapé da página-->
     <div class="navbar navbar-dark bg-dark">
         <div class="navbar">
             <a class="logo-box" href="/index.html"><img class="logo" src="/imagens/logo-senai-azul2.png"></a>
-            <div class="conjunto">
-                <a class="login-button-box" href="/login/login.html"><button class="login-button">LOGIN</button></a>
-                <a class="cart-button-box" href="/carrinho/cart.html"><button class="cart-button"><img class="cart-image" src="/imagens/cart-148964_960_720.webp"></button></a>
-            </div>
-            <br>
             <div class="input-group">
                 <input type="search" class="form-control rounded" placeholder="Pesquisar" aria-label="Search" aria-describedby="search-addon" />
                 <button type="button" class="btn btn-outline-primary">Pesquisar</button>
+            </div>
+            <div class="conjunto">
+                <a class="login-button-box" href="/login/login.html"><button class="login-button">LOGIN</button></a>
+                <a class="cart-button-box" href="/carrinho/cart.html"><button class="cart-button"><img class="cart-image" src="/imagens/cart-148964_960_720.webp"></button></a>
             </div>
         </div>
     </div>
@@ -46,93 +43,52 @@
             </ul>
         </nav>
     </div>
-    </div>
 
-    <!-- Barra de anúncio Carrosel -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/imagens/ps5.jpg" class="d-block w-100" alt="...">
+    <div class="product-container">
+        <div class="row">
+            <div class="col">
+                <div class="image-container"><img class="product-image" src="/imagens/xbox.png"></div>
             </div>
-            <div class="carousel-item">
-                <img src="/imagens/nintendo.png" class="d-block w-100" alt="...">
+
+            <div class="col">
+                <div class="list">
+                    <ul>
+                        <li>XBOX ONE X</li>
+                        <li>R$ 4000</li>
+                        <li>À VISTA COM DESCONTO NO DINHEIRO OU BOLETO</li>
+                        <li>ou até 10 x de R$ 400</li>
+                        <li>Quantidade:</li>
+                        <li><input></li>
+                        <li><button>Comprar</button></li>
+                        <li>Calcule o frete</li>
+                    </ul>
+                </div>
+
             </div>
+
+
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!-- Texto Produtos -->
-
-    <div class="d-flex justify-content-center">
-        <div class="title-product-text">
-            PRODUTOS
-        </div>
-
-    </div>
-
-    <!--Imagens de produtos-->
-
-
-    <div class="container-3">
-        <div class="col">
-            <div class="card border-dark">
-                <img src="/imagens/xbox.png" class="produtos" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Xbox One X</h5>
-                    <a href="product screen/product_screen.html" class="btn btn-primary">Go somewhere</a>
-                </div>
+        <div class="row">
+            <div class="description-title">Descrição</div>
+            <div class="description">
+                Xbox Series X - Pronta Entrega em nossa Loja Física (Comprando online pelo site não é possível retirar na loja física, e é necessário aguardar o envio pelo correio, ao comprar consulte o prazo para seu CEP) Apresentando o Xbox Series X. Jogue milhares
+                de títulos de quatro gerações de consoles - todos os jogos têm a melhor aparência e jogam melhor no Xbox Series X. No coração da Série X está a Xbox Velocity Architecture, que emparelha um SSD personalizado com software integrado para
+                maior velocidade jogabilidade com tempos de carregamento significativamente reduzidos. Mova-se perfeitamente entre vários jogos em um flash com o Quick Resume. Explore novos mundos ricos e desfrute da ação como nunca antes com os 12 teraflops
+                incomparáveis de poder de processamento gráfico bruto. Desfrute de jogos em 4K a até 120 quadros por segundo, som espacial 3D avançado e muito mais. ESPECIFICAÇÕES Fabricante: Microsoft CPU: Zen 2 8x Cores 3.8 GHz GPU: Radeon RDNA 2 12.15
+                Tflops 1.8 GHz Memória RAM: 16 GB GDDR6 Taxa de Frames: 30/60/120 frames p/s Voltagem: Bi-Volt Resolução Máxima: 8K Cor: Preto Itens Inclusos: - Console Xbox Series X - Controlador Xbox Wireless - Preto Carbono - Cabo HDMI de alta velocidade
+                - Cabo de energia *BIVOLT (Comprando online pelo site não é possível retirar na loja física, e é necessário aguardar o envio pelo correio, ao comprar consulte o prazo para seu CEP)
             </div>
 
-            <div class="card border-dark">
-                <img src="/imagens/xbox.png" class="produtos" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Xbox One X</h5>
-                    <a href="product screen/product_screen.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-            <div class="card border-dark">
-                <img src="/imagens/xbox.png" class="produtos" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Xbox One X</h5>
-                    <a href="product screen/product_screen.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
 
         </div>
 
-        <div class="col">
-            <div class="card border-dark">
-                <img src="/imagens/xbox.png" class="produtos" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Xbox One X</h5>
-                    <a href="product screen/product_screen.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card border-dark">
-                <img src="/imagens/xbox.png" class="produtos" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Xbox One X</h5>
-                    <a href="product screen/product_screen.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card border-dark">
-                <img src="/imagens/xbox.png" class="produtos" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Xbox One X</h5>
-                    <a href="product screen/product_screen.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
+
     </div>
- </div>
+
+
+
+
+
 
     <!--Rodapé da página-->
     <footer class="footer-section bg-with-black">
@@ -196,10 +152,8 @@
             </div>
         </div>
     </footer>
-
-    <script type="text/javascript" src="/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="/script.js"></script>
 </body>
 
 </html>

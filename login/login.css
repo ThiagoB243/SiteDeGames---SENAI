@@ -1,19 +1,18 @@
-body {
-    background-color: black;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-login {
     background-color: #2C4169;
     width: 100%;
-    height: fit-content;
 }
 
 .logo {
     width: 15%;
-    height: fit-content;
-    height: 5em;
+    height: 40%;
     cursor: pointer;
-    margin: 25px 0;
+    margin: 10px 0;
     margin-left: 2%;
 }
 
