@@ -1,17 +1,22 @@
-body{
+body {
     background-color: black;
-   }
+}
 
-.container{
+.container {
     font-size: 25px;
     margin: 0 auto;
     display: flex;
     background-color: #2C4169;
-    justify-content: center;
-    color:white;
+    color: white;
     padding: 12px;
-    width: 420px;
-    height: 200px;
     border-radius: 20px;
-    position: absolute;
+    width: 40%;
+}
+
+.voltar {
+    text-align: center;
+}
+
+.mensagem {
+    text-align: center;
 }

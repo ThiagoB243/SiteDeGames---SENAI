@@ -199,7 +199,7 @@ footer.footer-section {
 }
 
 .footer-top-section {
-    margin: 0 0 5%;
+    margin: 0 0 1%;
 }
 
 .single-fta>img {
@@ -239,7 +239,6 @@ footer.footer-section {
 .fba-links ul li a {
     color: #e5e5e5;
     display: block;
-    font-size: 14px;
     letter-spacing: 0;
 }
 
@@ -309,5 +308,11 @@ footer.footer-section {
     .product-image {
         width: 100%;
         margin: 10px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .list {
+        margin: 40px auto;
     }
 }

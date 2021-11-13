@@ -136,6 +136,11 @@ nav ul li img {
     margin-top: 30px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
 
 /*Elementos da barra de anúncio*/
 
@@ -216,7 +221,7 @@ footer.footer-section {
 }
 
 .footer-top-section {
-    margin: 0 0 5%;
+    margin: 0 0 1%;
 }
 
 .single-fta>img {

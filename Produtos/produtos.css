@@ -151,7 +151,7 @@ nav ul li img {
     padding: 20px;
 }
 
-.card h5{
+.card h5 {
     font-size: 1.5em;
 }
 
@@ -171,7 +171,7 @@ footer.footer-section {
 }
 
 .footer-top-section {
-    margin: 0 0 47px;
+    margin: 0 0 1%;
 }
 
 .single-fta>img {
@@ -239,7 +239,7 @@ footer.footer-section {
         z-index: 2;
         position: absolute;
     }
-    .input-group{
+    .input-group {
         margin-top: 30px;
     }
     nav ul li {
