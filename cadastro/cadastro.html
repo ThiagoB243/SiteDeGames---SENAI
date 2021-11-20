@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/cadastro/cadastro.css" media="screen">
     <title>Cadastro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 </head>
 
 <body>
@@ -15,21 +17,35 @@
         <a href="/index.html"><img class="logo" src="/imagens/logo-senai-azul2.png"></a>
     </div>
 
-
     <div class="container">
-        <form>
+        <form onsubmit="return gerar_json(this);" action="">
 
-            <div class="e-mail">E-mail:</div>
-            <input class="e-mail-input" type="email">
+            Nome:<input id="name" type="nome" />
 
+            <br /> E-mail:
+            <input id="email" type="email" />
 
-            <div class="password">Senha:</div>
-            <input class="password-input" type="password">
+            <br /> Senha:
+            <input id="password" type="password" />
 
-            <div><button class="botao" type="submit">LOGIN</button></div>
+            <!-- <br /> Confirmar Senha:
+            <input id="password" type="password" />-->
+
+            <br /> CEP:
+            <input name="cep" class="form-control cep_mask" id="cep" required="" onblur="pesquisacep(this.value);" type="text" maxlength="9">
+
+            <br /> Endereço:
+            <input name="endereco" disabled="" class="form-control" id="endereco">
+
+            <br /> Número:
+            <input name="numero" class="form-control" id="numero">
+
+            <br />
+
+            <button class="btn btn-success" type="submit">Cadastrar</button>
         </form>
     </div>
-
+    <script type="text/javascript" src="/cadastro/script.js"></script>
 </body>
 
 </html>

@@ -30,12 +30,7 @@
     margin-top: 4%;
 }
 
-.e-mail {
-    padding: 2%;
-    font-size: 0.6em;
-}
-
-.e-mail-input {
+#email {
     border-radius: 10px;
     margin: 2%;
     width: 90%;
@@ -47,7 +42,35 @@
     font-size: 0.6em;
 }
 
-.password-input {
+.btn {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+}
+
+#password {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+}
+
+#endereco {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+}
+
+#cep {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+}
+
+#name {
     border-radius: 10px;
     margin: 2%;
     width: 90%;
@@ -63,6 +86,20 @@
     margin: 3%;
     background-color: #0FFE52;
     font-size: 25px;
+}
+
+#endereco {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+}
+
+#numero {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
 }
 
 .botaoc {
