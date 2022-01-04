@@ -22,11 +22,15 @@
     display: flex;
 }
 
+.logo-box {
+    margin: 0 auto;
+}
+
 .logo {
     width: 150px;
     height: 90px;
     cursor: pointer;
-    margin: 25px 0;
+    margin: 25px auto;
     margin-left: 30px;
 }
 
